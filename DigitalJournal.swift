@@ -19,7 +19,7 @@ struct DigitalJournal: View {
                     .foregroundColor(Color(hue: 0.374, saturation: 0.959, brightness: 0.447))
 
 
-                Text("Write Your Thoughts..")
+                Text("Write Your Thoughts...")
                     .fontWeight(.bold)
                     .foregroundColor(Color(hue: 0.374, saturation: 0.959, brightness: 0.447))
                     .padding()
