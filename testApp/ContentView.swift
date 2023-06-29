@@ -20,7 +20,7 @@ struct ContentView: View {
                         .foregroundColor(Color(hue: 0.332, saturation: 0.954, brightness: 0.42))
                         .padding()
                     
-                    Text("WELLNESS FOR ALL!")
+                    Text("WELLNESS FOR ALL")
                         .font(.title2)
                         .fontWeight(.semibold)
                         .foregroundColor(Color(hue: 0.36, saturation: 0.966, brightness: 0.581))

@@ -14,7 +14,7 @@ struct mentalHealth: View {
             Color.init(red: 0.76, green: 0.88, blue: 0.77)
                 .ignoresSafeArea()
             VStack {
-                Text("✨ MENTAL HEALTH ✨")
+                Text("✨ MENTAL HEALTH✨")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(Color(hue: 0.344, saturation: 0.946, brightness: 0.521))
@@ -27,7 +27,7 @@ struct mentalHealth: View {
                     .border(Color.black)
                     .padding()
                 
-                Text ("We are also providing you with a digital journal. A safe space to write out your thoughts. ✨ ")
+                Text ("We are also providing you with a digital journal. A safe space to write out your thoughts. ✨")
                     .fontWeight(.semibold)
                     .foregroundColor(Color(hue: 0.277, saturation: 0.943, brightness: 0.412))
                     .multilineTextAlignment(.leading)
