@@ -14,7 +14,7 @@ struct Productivity: View {
                 .ignoresSafeArea()
             
             VStack {
-                Text("Productivity!")
+                Text("Productivity")
             }
         }
     }

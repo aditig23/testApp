@@ -14,7 +14,7 @@ struct ContentView: View {
                 Color.init(red: 0.76, green: 0.88, blue: 0.77)
                     .ignoresSafeArea()
                 VStack {
-                    Text("✨GLOW✨")
+                    Text("✨ GLOW ✨")
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .foregroundColor(Color(hue: 0.332, saturation: 0.954, brightness: 0.42))

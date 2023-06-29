@@ -14,7 +14,7 @@ struct PhysicalHealth: View {
                 .ignoresSafeArea()
             
             VStack {
-                Text("Physical Health")
+                Text("Physical ")
             }
             
         }
