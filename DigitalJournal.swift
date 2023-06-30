@@ -10,10 +10,8 @@ struct DigitalJournal: View {
                 .ignoresSafeArea()
 
             VStack {
-                Text("GLOW")
-                    .foregroundColor(.black)
-                    .padding()
                 Text( "DIGITAL JOURNAL")
+                    .padding()
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(Color(hue: 0.374, saturation: 0.959, brightness: 0.447))

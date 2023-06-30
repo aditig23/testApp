@@ -14,12 +14,53 @@ struct PhysicalHealth: View {
                 .ignoresSafeArea()
             
             VStack {
-                Text("Physical Health")
+                Text("✨PHYSICAL HEALTH✨")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color(hue: 0.344, saturation: 0.946, brightness: 0.521))
+                
+                Text("Taking care of your physical health is essential to maintaining your mental health and overall well being. By incoorperating exercise and healthy meals into everyday life, individuals can feel better both mentally and physically.")
+                     
+                     
+                     
+                     
+                    .fontWeight(.semibold)
+                    .foregroundColor(Color(hue: 0.396, saturation: 0.945, brightness: 0.381))
+                    .multilineTextAlignment(.center)
+                    .padding()
+                    .border(Color.black)
+                    .padding()
+                
+                Text ("here are some healthy recipes and workout plans!")
+                    .fontWeight(.semibold)
+                    .foregroundColor(Color(hue: 0.277, saturation: 0.943, brightness: 0.412))
+                    .multilineTextAlignment(.center)
+                    .padding()
+    
+                
+                NavigationLink(destination: healthyRecipes()) {
+                            Text("Recipes:")
+                                    }
+                .font(.title3)
+                                    .buttonStyle(.borderedProminent)
+                                    .tint(.green)
+                                    .padding()
+                
+                NavigationLink(destination: workoutPlans()) {
+                            Text("Workouts:")
+                                    }
+                .font(.title3)
+                                    .buttonStyle(.borderedProminent)
+                                    .tint(.green)
+                                    .padding()
             }
+            
+            
+            }
+            
             
         }
         
-    }
 }
 
 struct PhysicalHealth_Previews: PreviewProvider {

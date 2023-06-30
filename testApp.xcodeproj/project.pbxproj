@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		2B53733D2A4BA61000F4BE0D /* mentalHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53733C2A4BA61000F4BE0D /* mentalHealth.swift */; };
 		2B53733F2A4BAA8000F4BE0D /* DigitalJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53733E2A4BAA8000F4BE0D /* DigitalJournal.swift */; };
+		2B6CD0452A4EA63300538B64 /* healthyRecipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6CD0442A4EA63300538B64 /* healthyRecipes.swift */; };
+		2B6CD0492A4EB59B00538B64 /* workoutPlans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6CD0482A4EB59B00538B64 /* workoutPlans.swift */; };
+		2B6CD04B2A4EBF6900538B64 /* techniques.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6CD04A2A4EBF6900538B64 /* techniques.swift */; };
+		2B6CD04D2A4EBFD400538B64 /* tasksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6CD04C2A4EBFD400538B64 /* tasksList.swift */; };
 		2BAFCC512A4CCE790025C30A /* PhysicalHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAFCC502A4CCE790025C30A /* PhysicalHealth.swift */; };
 		2BAFCC532A4CCEBB0025C30A /* Productivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAFCC522A4CCEBB0025C30A /* Productivity.swift */; };
 		2BE397DC2A460DC0003D7E4D /* testAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE397DB2A460DC0003D7E4D /* testAppApp.swift */; };
@@ -20,6 +24,10 @@
 /* Begin PBXFileReference section */
 		2B53733C2A4BA61000F4BE0D /* mentalHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentalHealth.swift; sourceTree = "<group>"; };
 		2B53733E2A4BAA8000F4BE0D /* DigitalJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalJournal.swift; sourceTree = "<group>"; };
+		2B6CD0442A4EA63300538B64 /* healthyRecipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = healthyRecipes.swift; sourceTree = "<group>"; };
+		2B6CD0482A4EB59B00538B64 /* workoutPlans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutPlans.swift; sourceTree = "<group>"; };
+		2B6CD04A2A4EBF6900538B64 /* techniques.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = techniques.swift; sourceTree = "<group>"; };
+		2B6CD04C2A4EBFD400538B64 /* tasksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tasksList.swift; sourceTree = "<group>"; };
 		2BAFCC502A4CCE790025C30A /* PhysicalHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalHealth.swift; sourceTree = "<group>"; };
 		2BAFCC522A4CCEBB0025C30A /* Productivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Productivity.swift; sourceTree = "<group>"; };
 		2BE397D82A460DC0003D7E4D /* testApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,8 +51,12 @@
 		2BE397CF2A460DC0003D7E4D = {
 			isa = PBXGroup;
 			children = (
+				2B6CD0442A4EA63300538B64 /* healthyRecipes.swift */,
 				2BAFCC522A4CCEBB0025C30A /* Productivity.swift */,
+				2B6CD04C2A4EBFD400538B64 /* tasksList.swift */,
+				2B6CD04A2A4EBF6900538B64 /* techniques.swift */,
 				2BAFCC502A4CCE790025C30A /* PhysicalHealth.swift */,
+				2B6CD0482A4EB59B00538B64 /* workoutPlans.swift */,
 				2B53733C2A4BA61000F4BE0D /* mentalHealth.swift */,
 				2B53733E2A4BAA8000F4BE0D /* DigitalJournal.swift */,
 				2BE397DA2A460DC0003D7E4D /* testApp */,
@@ -152,8 +164,12 @@
 				2BAFCC512A4CCE790025C30A /* PhysicalHealth.swift in Sources */,
 				2B53733F2A4BAA8000F4BE0D /* DigitalJournal.swift in Sources */,
 				2BE397DE2A460DC0003D7E4D /* ContentView.swift in Sources */,
+				2B6CD0452A4EA63300538B64 /* healthyRecipes.swift in Sources */,
 				2BAFCC532A4CCEBB0025C30A /* Productivity.swift in Sources */,
 				2B53733D2A4BA61000F4BE0D /* mentalHealth.swift in Sources */,
+				2B6CD04D2A4EBFD400538B64 /* tasksList.swift in Sources */,
+				2B6CD0492A4EB59B00538B64 /* workoutPlans.swift in Sources */,
+				2B6CD04B2A4EBF6900538B64 /* techniques.swift in Sources */,
 				2BE397DC2A460DC0003D7E4D /* testAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

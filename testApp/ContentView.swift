@@ -30,7 +30,7 @@ struct ContentView: View {
                         .padding()
                     
                     NavigationLink(destination: mentalHealth()) {
-                                            Text("Mental Health")
+                                            Text("Mental Health:")
                                         }
                                         .font(.title2)
                                         .buttonStyle(.borderedProminent)
